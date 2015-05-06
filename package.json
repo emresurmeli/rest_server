@@ -1,0 +1,31 @@
+{
+  "name": "rest_api_server.js",
+  "version": "1.0.0",
+  "description": "single resource REST API server",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emresurmeli/rest_server"
+  },
+  "author": "s.emre.s.8@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emresurmeli/rest_server/issues"
+  },
+  "homepage": "https://github.com/emresurmeli/rest_server",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "mongoose": "^4.0.2"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-simple-mocha": "^0.4.0"
+  }
+}
